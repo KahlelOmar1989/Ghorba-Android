@@ -1,0 +1,61 @@
+name: Build and test Ghorba Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install SDK components
+        run: sdkmanager --install "platforms;android-35" "build-tools;35.0.0"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Check source, privacy and trade data
+        run: |
+          python3 verify_source.py
+          python3 test_trade_guide.py
+          python3 release_check.py
+          node --check ai-relay/src/index.js
+          node ai-relay/test-mock.mjs
+
+      - name: Compile Android application and make signed debug APK
+        run: gradle --no-daemon :app:assembleDebug --stacktrace
+
+      - name: Verify that APK exists and record checksum
+        run: |
+          test -s app/build/outputs/apk/debug/app-debug.apk
+          sha256sum app/build/outputs/apk/debug/app-debug.apk > ghorba-apk-sha256.txt
+          cat ghorba-apk-sha256.txt
+
+      - name: Upload installable test APK and checksum
+        uses: actions/upload-artifact@v4
+        with:
+          name: ghorba-android-debug-apk
+          path: |
+            app/build/outputs/apk/debug/app-debug.apk
+            ghorba-apk-sha256.txt
+          if-no-files-found: error
+          retention-days: 30

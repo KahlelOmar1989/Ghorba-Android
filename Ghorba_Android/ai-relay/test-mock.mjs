@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import relay from './src/index.js';
+const env={OPENAI_API_KEY:'mock-openai',GHORBA_CLIENT_TOKEN:'mock-access-token',OPENAI_MODEL:'gpt-5-mini'};
+const no=await relay.fetch(new Request('https://x.workers.dev/chat',{method:'POST',body:JSON.stringify({message:'سلام'})}),env);
+assert.equal(no.status,401);
+let seen=null;const original=globalThis.fetch;
+globalThis.fetch=async(url,opts)=>{seen={url,headers:opts.headers,body:JSON.parse(opts.body)};return Response.json({output:[{type:'message',content:[{type:'output_text',text:'هلااا، شو أخبارك؟'}]}]});};
+const ok=await relay.fetch(new Request('https://x.workers.dev/chat',{method:'POST',headers:{Authorization:'Bearer mock-access-token','Content-Type':'application/json'},body:JSON.stringify({message:'كيفك؟',memory:'بحب ريال مدريد',history:[{role:'assistant',content:'هلا'}]})}),env);
+assert.equal(ok.status,200);assert.equal((await ok.json()).reply,'هلااا، شو أخبارك؟');
+assert.equal(seen.body.store,false);assert.equal(seen.body.input.length,3);assert.equal(seen.body.model,'gpt-5-mini');
+assert.equal(seen.headers.Authorization,'Bearer mock-openai');
+const nohist=await relay.fetch(new Request('https://x.workers.dev/chat',{method:'POST',headers:{Authorization:'Bearer mock-access-token'},body:JSON.stringify({message:'شو اسمك؟'})}),env);
+assert.equal(nohist.status,200);assert.equal(seen.body.input.length,1);
+globalThis.fetch=original;
+console.log('Relay mock tests passed: auth, response, private memory selection, stateless API, no hardcoded key.');

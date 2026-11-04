@@ -1,0 +1,8 @@
+name = "ghorba-private-ai"
+main = "src/index.js"
+compatibility_date = "2026-11-03"
+
+# No secret keys are stored in this file.
+# Optional: specify a model supported by your OpenAI API project.
+[vars]
+OPENAI_MODEL = "gpt-5-mini"

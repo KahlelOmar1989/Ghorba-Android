@@ -1,0 +1,9 @@
+<resources>
+    <style name="GhorbaTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#B486FF</item>
+        <item name="android:statusBarColor">#080E24</item>
+        <item name="android:navigationBarColor">#080E24</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,843 @@
+[
+  {
+    "id": "rebar",
+    "name": "تسليح وربط الحديد",
+    "de": "Bewehrung / Eisenflechten",
+    "summary": "حديد التسليح داخل الخرسانة وفق مخططات الإنشاء المعتمدة.",
+    "aliases": "تسليح وربط الحديد Bewehrung / Eisenflechten Beton Bewehrung verlegen Abstandhalter Anleitung",
+    "steps": [
+      "تحديد الأقطار والأشكال من مخطط التسليح",
+      "تجهيز حديد القضبان والكانات حسب جدول القص والثني",
+      "تركيب الفواصل لضمان الغطاء الخرساني",
+      "ربط التقاطعات وتثبيت الحديد ومنع تحركه عند الصب",
+      "مراجعة المهندس للتراكبات والمناسيب والفتحات قبل الصب"
+    ],
+    "tools": [
+      "حديد تسليح Bewehrungsstahl",
+      "سلك ربط Bindedraht",
+      "فواصل Abstandhalter",
+      "كماشة ربط Flechtzange"
+    ],
+    "terms": [
+      "الغطاء الخرساني Betondeckung",
+      "الكانة Bügel",
+      "طول التراكب Übergreifungslänge",
+      "شبك تسليح Baustahlmatte",
+      "مخطط التسليح Bewehrungsplan"
+    ],
+    "safety": "لا تقرر القطر أو طول التراكب من التخمين؛ لا تعديل لتسليح إنشائي دون المخطط والمهندس.",
+    "query": "Beton Bewehrung verlegen Abstandhalter Anleitung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "formwork",
+    "name": "الشدات والقوالب",
+    "de": "Schalungsbau",
+    "summary": "تجهيز قوالب الخرسانة والأعمدة والأسقف مع دعم آمن.",
+    "aliases": "الشدات والقوالب Schalungsbau Deckenschalung sicher aufbauen Beton Schalung",
+    "steps": [
+      "قراءة مخطط الشدة وتصميم التدعيم",
+      "فحص الأخشاب والقوالب والعناصر الحاملة",
+      "تركيب القوالب والشدات والتربيط والتدعيم",
+      "ضبط الاستقامة والمقاسات والفواصل",
+      "فحص ما قبل الصب وفك الشدة فقط بتصريح المختص"
+    ],
+    "tools": [
+      "ألواح شدة Schalplatten",
+      "دعامات Deckenstützen",
+      "عوارض Schalungsträger",
+      "فواصل Abstandhalter"
+    ],
+    "terms": [
+      "شدة السقف Deckenschalung",
+      "قالب العمود Stützenschalung",
+      "رباط Anker",
+      "سند Aussteifung"
+    ],
+    "safety": "الانهيار خطر قاتل؛ أي شدة حاملة تتطلب مخطط تحميل وتصميمًا ومراجعة مختص.",
+    "query": "Deckenschalung sicher aufbauen Beton Schalung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "concrete",
+    "name": "صب الخرسانة",
+    "de": "Betonieren",
+    "summary": "خلط أو توريد الخرسانة وصبها ودمكها ومعالجتها.",
+    "aliases": "صب الخرسانة Betonieren Beton fachgerecht einbringen verdichten nachbehandeln",
+    "steps": [
+      "تحضير الموقع وفحص الشدة والتسليح",
+      "تأكيد صنف الخرسانة والتوريد وفق المشروع",
+      "صب متدرج مع تنظيم التدفق",
+      "الدمك بالمعدة الملائمة دون تحريك التسليح",
+      "التسوية والمعالجة والحماية من الجفاف والبرد"
+    ],
+    "tools": [
+      "خرسانة Beton",
+      "هزاز داخلي Innenrüttler",
+      "قدة Abziehlatte",
+      "مادة معالجة Nachbehandlungsmittel"
+    ],
+    "terms": [
+      "إجهاد الضغط Druckfestigkeit",
+      "دمك Verdichten",
+      "فاصل صب Arbeitsfuge",
+      "الغطاء الخرساني Betondeckung"
+    ],
+    "safety": "لا تضف ماء عشوائيًا للخلاطة؛ التزم بمخطط الصب والمعالجة ومواصفات المصنع.",
+    "query": "Beton fachgerecht einbringen verdichten nachbehandeln",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "masonry",
+    "name": "بناء الجدران والطوب",
+    "de": "Mauerwerk / KS-Stein",
+    "summary": "جدران البلوك والجير الرملي والطوب؛ قد تكون حاملة أو غير حاملة.",
+    "aliases": "بناء الجدران والطوب Mauerwerk / KS-Stein Kalksandstein Mauerwerk Dünnbettmörtel verarbeiten",
+    "steps": [
+      "مراجعة المخططات وخطوط المحاور",
+      "اختيار الطوب والمونة المناسبة للنظام",
+      "فرد الطبقة الأولى وضبط الميزان",
+      "البناء بترابط الفواصل والمناسيب",
+      "تنفيذ الربط والفتحات حسب التفاصيل المعتمدة"
+    ],
+    "tools": [
+      "طوب جيري رملي Kalksandstein",
+      "مونة Dünnbettmörtel",
+      "ميزان Wasserwaage",
+      "خيط بناء Maurerschnur"
+    ],
+    "terms": [
+      "رباط Verband",
+      "حجر KS Kalksandstein",
+      "فاصل Lagerfuge",
+      "كتف Laibung"
+    ],
+    "safety": "الجدران الحاملة والفتحات تحتاج تصميمًا إنشائيًا؛ تأكد من الأحمال قبل أي تعديل.",
+    "query": "Kalksandstein Mauerwerk Dünnbettmörtel verarbeiten",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "plaster",
+    "name": "اللياسة والطينة",
+    "de": "Innenputz / Außenputz",
+    "summary": "طبقات تجصيص تسوّي السطوح وتحضّرها للتشطيب.",
+    "aliases": "اللياسة والطينة Innenputz / Außenputz Knauf Rotband Putz richtig verarbeiten",
+    "steps": [
+      "فحص سطح الجدار وتنظيفه",
+      "اختيار برايمر/جسر التصاق حسب السطح",
+      "تثبيت بروفيلات الحواف والميزان",
+      "تطبيق الطينة والسحب بالقدة",
+      "التنعيم والتجفيف وفق النشرة الفنية"
+    ],
+    "tools": [
+      "جبس Rotband",
+      "طينة جص Gipsputz",
+      "مادة التصاق Putzhaftbrücke",
+      "قدة Richtlatte"
+    ],
+    "terms": [
+      "جسر التصاق Haftbrücke",
+      "بروفيل زاوية Eckschutzschiene",
+      "طبقة Unterputz",
+      "تجفيف Trocknung"
+    ],
+    "safety": "لا تستعمل جبس الداخل في أماكن رطبة أو واجهات بلا تحقق؛ زمن الجفاف حسب المنتج.",
+    "query": "Knauf Rotband Putz richtig verarbeiten",
+    "source_url": "https://knauf.com/de-DE/kunden-gruppe/diy/anleitungen",
+    "source_label": "Knauf • دليل التشطيب"
+  },
+  {
+    "id": "facade",
+    "name": "عزل الواجهات الخارجي",
+    "de": "WDVS / Fassadendämmung",
+    "summary": "نظام عزل واجهات كامل يتضمن ألواح عزل وشبك وطبقات حماية.",
+    "aliases": "عزل الواجهات الخارجي WDVS / Fassadendämmung WDVS Fassade dämmen Armierung Putz Montage",
+    "steps": [
+      "فحص الحائط والنظام المعتمد",
+      "إعداد القاعدة واللاصق وتثبيت ألواح العزل",
+      "تنفيذ المسامير والزوايا والفتحات حسب النظام",
+      "تسليح بطبقة Armierung ومشبك بترابط مناسب",
+      "برايمر وطبقة تشطيب نهائية وفق تعليمات المنتج"
+    ],
+    "tools": [
+      "ألواح EPS/Mineralwolle Dämmplatten",
+      "غراء Klebemörtel",
+      "شبك Armierungsgewebe",
+      "مسامير Dübel"
+    ],
+    "terms": [
+      "نظام WDVS",
+      "طبقة تسليح Armierungsschicht",
+      "عتبة نافذة Fensterbank",
+      "حافة Sockel"
+    ],
+    "safety": "لا تخلط مكونات أنظمة مختلفة بلا موافقة؛ اشتراطات الحريق والتثبيت مهمة.",
+    "query": "WDVS Fassade dämmen Armierung Putz Montage",
+    "source_url": "https://www.dk-westment.de/info-aktuelles/wdvs-anleitungen/anleitungen/verarbeitung-gewebe-und-armierung.html",
+    "source_label": "دليل فيديو لتسليح الواجهة WDVS"
+  },
+  {
+    "id": "painting",
+    "name": "الدهان والطلاء",
+    "de": "Malerarbeiten",
+    "summary": "تجهيز الأسطح والطلاء الداخلي والخارجي.",
+    "aliases": "الدهان والطلاء Malerarbeiten Wand streichen grundieren abkleben maler",
+    "steps": [
+      "تقييم السطح والحالة والرطوبة",
+      "تنظيف وتغطية وحماية الأثاث",
+      "سد الشقوق والصنفرة وتطبيق البرايمر",
+      "الدهان على دفعتين أو حسب التغطية",
+      "فحص الحواف واللون والإضاءة والتنظيف"
+    ],
+    "tools": [
+      "دهان Wandfarbe",
+      "برايمر Tiefgrund",
+      "شريط Malerkrepp",
+      "رول Farbroller"
+    ],
+    "terms": [
+      "طبقة أساسية Grundierung",
+      "طبقة نهائية Schlussbeschichtung",
+      "قابلية الغسل Nassabriebklasse",
+      "تغطية Deckvermögen"
+    ],
+    "safety": "افحص أسطح الدهان القديمة والرطوبة؛ تجنب صنفرة دهانات قديمة مشبوهة دون تقييم.",
+    "query": "Wand streichen grundieren abkleben maler",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "skimcoat",
+    "name": "المعجون والصنفرة",
+    "de": "Spachtelarbeiten Q1-Q4",
+    "summary": "تسوية الأسطح وملء الفواصل للوصول إلى جودة نهائية محددة.",
+    "aliases": "المعجون والصنفرة Spachtelarbeiten Q1-Q4 Trockenbau Q1 Q2 Q3 Q4 spachteln schleifen",
+    "steps": [
+      "تحديد مستوى الجودة المطلوب Q1 إلى Q4",
+      "سد العيوب والفواصل ووضع شريط التسليح حسب النظام",
+      "تطبيق طبقات معجون مناسبة",
+      "ترك المادة تجف ثم صنفرتها مع شفط الغبار",
+      "فحص السطح بإضاءة جانبية وتجهيز الدهان"
+    ],
+    "tools": [
+      "معجون Spachtelmasse",
+      "شريط فواصل Fugendeckstreifen",
+      "صنفرة Schleifgitter",
+      "كشاف Streiflicht"
+    ],
+    "terms": [
+      "مستوى السطح Oberflächenqualität",
+      "تعبئة Fugenfüllen",
+      "صنفرة Schleifen",
+      "معجون نهائي Finishspachtel"
+    ],
+    "safety": "معالجة غبار الصنفرة والتهوية ضرورية؛ جودة Q4 لا تعني سطحًا بلا أي أثر تحت كل إضاءة.",
+    "query": "Trockenbau Q1 Q2 Q3 Q4 spachteln schleifen",
+    "source_url": "https://knauf.com/de-DE/kunden-gruppe/diy/anleitungen",
+    "source_label": "Knauf • المعجون"
+  },
+  {
+    "id": "drywall",
+    "name": "الجبس بورد والأسقف",
+    "de": "Trockenbau / Gipskarton",
+    "summary": "قواطع وألواح جبسية وأسقف معلقة.",
+    "aliases": "الجبس بورد والأسقف Trockenbau / Gipskarton Knauf Trockenbau Wand Decke Anleitung",
+    "steps": [
+      "تحديد خط الجدار ونوع النظام",
+      "تثبيت البروفيلات والعزل والتعليقات",
+      "تمرير التمديدات بواسطة المختصين قبل إغلاق الحائط",
+      "تركيب الألواح مع تباعد الفواصل حسب النظام",
+      "معالجة الفواصل وتشطيب السطح"
+    ],
+    "tools": [
+      "لوح Gipskartonplatte",
+      "بروفيل CW/UW",
+      "مسامير Schnellbauschrauben",
+      "عزل Mineralwolle"
+    ],
+    "terms": [
+      "حائط خفيف Trennwand",
+      "سقف معلق Abgehängte Decke",
+      "طبقات Beplankung",
+      "فاصل Fuge"
+    ],
+    "safety": "الجدران المقاومة للحريق والصوت تتطلب نظامًا مختبرًا؛ لا تعدّل عناصره اعتباطًا.",
+    "query": "Knauf Trockenbau Wand Decke Anleitung",
+    "source_url": "https://knauf.com/de-DE/kunden-gruppe/diy/anleitungen",
+    "source_label": "Knauf • الجبس بورد"
+  },
+  {
+    "id": "tiling",
+    "name": "تركيب البلاط",
+    "de": "Fliesenlegen",
+    "summary": "تحضير الأرض أو الحائط وتركيب البلاط والفواصل.",
+    "aliases": "تركيب البلاط Fliesenlegen Fliesen verlegen Abdichtung Bad Anleitung",
+    "steps": [
+      "فحص استواء وجفاف السطح",
+      "اختيار العزل المائي واللاصق حسب المكان",
+      "تخطيط الفواصل وتوزيع قطع البلاط",
+      "فرد اللاصق وتركيب البلاط بالمستوى",
+      "الترويبة والعزل المرن في فواصل الحركة"
+    ],
+    "tools": [
+      "بلاط Fliese",
+      "لاصق Fliesenkleber",
+      "ميزان Wasserwaage",
+      "ترويبة Fugenmörtel"
+    ],
+    "terms": [
+      "فاصل حركة Bewegungsfuge",
+      "عزل Verbundabdichtung",
+      "مشط Zahnkelle",
+      "ترويبة Verfugen"
+    ],
+    "safety": "الحمامات تحتاج منظومة عزل تحت البلاط؛ السيليكون ليس بديلًا عنها.",
+    "query": "Fliesen verlegen Abdichtung Bad Anleitung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "screed",
+    "name": "السكريد وتسوية الأرضية",
+    "de": "Estrich / Bodenausgleich",
+    "summary": "طبقة أرضية تستقبل البلاط أو الباركيه أو اللامينيت.",
+    "aliases": "السكريد وتسوية الأرضية Estrich / Bodenausgleich Estrich verlegen Belegreife Feuchtigkeit",
+    "steps": [
+      "تحديد نظام الأرضية والارتفاعات",
+      "تحضير العزل وفواصل الحواف عند اللزوم",
+      "خلط وصب أو ضخ السكريد",
+      "تسوية السطح والفواصل",
+      "قياس الرطوبة وتأكيد جاهزية التغطية"
+    ],
+    "tools": [
+      "سكريد Zementestrich",
+      "شريط حواف Randdämmstreifen",
+      "مقياس CM-Messung",
+      "مسطرة Abziehlatte"
+    ],
+    "terms": [
+      "طبقة تسوية Ausgleichsmasse",
+      "جفاف Belegreife",
+      "فاصل Dehnfuge",
+      "طبقة فصل Trennlage"
+    ],
+    "safety": "لا تركب الأرضيات قبل فحص الرطوبة بالوسيلة المطلوبة لنوع السكريد والتغطية.",
+    "query": "Estrich verlegen Belegreife Feuchtigkeit",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "laminate",
+    "name": "اللامينيت والباركيه",
+    "de": "Laminat / Parkett",
+    "summary": "أرضيات جاهزة تحتاج تحضير قاعدة وفواصل تمدد.",
+    "aliases": "اللامينيت والباركيه Laminat / Parkett Laminat verlegen Trittschalldämmung",
+    "steps": [
+      "قياس الرطوبة والاستواء",
+      "تحديد اتجاه الألواح وحساب الفاقد",
+      "تركيب الطبقة التحتية الموصى بها",
+      "تركيب الألواح مع فواصل التمدد",
+      "تثبيت الوزرات دون قفل حركة الأرضية"
+    ],
+    "tools": [
+      "لامينيت Laminat",
+      "عزل سفلي Trittschalldämmung",
+      "وزرة Sockelleiste",
+      "أوتاد Abstandskeile"
+    ],
+    "terms": [
+      "أرضية عائمة Schwimmend",
+      "فاصل تمدد Dehnungsfuge",
+      "قاعدة Untergrund",
+      "لوح Diele"
+    ],
+    "safety": "اتبع تعليمات الشركة بشأن رطوبة القاعدة والأرضية المدفأة وفواصل التمدد.",
+    "query": "Laminat verlegen Trittschalldämmung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "waterproof",
+    "name": "عزل الأسطح",
+    "de": "Flachdachabdichtung",
+    "summary": "منع تسرب الماء من الأسطح والشرفات مع تصريف صحيح.",
+    "aliases": "عزل الأسطح Flachdachabdichtung Flachdach abdichten Anschlüsse Anleitung",
+    "steps": [
+      "فحص ميل السطح ونظام التصريف",
+      "تحضير القاعدة وطبقة الفصل عند الحاجة",
+      "اختيار النظام المتوافق والعزل الحراري",
+      "تنفيذ الوصلات والحواف والاختراقات وفق النظام",
+      "اختبار وفحص الجودة وتوثيق العمل"
+    ],
+    "tools": [
+      "لفائف بيتومين Bitumenbahn",
+      "غشاء Kunststoffbahn",
+      "عازل Wärmedämmung",
+      "مصرف Dachablauf"
+    ],
+    "terms": [
+      "تصريف Entwässerung",
+      "حاجز بخار Dampfsperre",
+      "وصلة Anschlussdetail",
+      "طبقة حماية Schutzlage"
+    ],
+    "safety": "أعمال الأسطح تنطوي على خطر سقوط ونيران؛ اتبع تصميم العزل والسلامة ولا تستخدم اللهب بلا تدريب.",
+    "query": "Flachdach abdichten Anschlüsse Anleitung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "scaffold",
+    "name": "السقالات",
+    "de": "Gerüstbau / Gerüstnutzung",
+    "summary": "تركيب واستخدام السقالات وفق قواعد السلامة واعتماد المختص.",
+    "aliases": "السقالات Gerüstbau / Gerüstnutzung BG BAU Gerüst sicher benutzen",
+    "steps": [
+      "تحديد نوع السقالة ومتطلبات العمل من المخطط",
+      "تجهيز القاعدة والتثبيت والربط بواسطة مختصين",
+      "تركيب الحمايات والممرات المصرح بها",
+      "فحص مؤهل وإصدار تصريح الاستخدام",
+      "معاينة يومية قبل الاستخدام ومنع التعديل غير المصرّح"
+    ],
+    "tools": [
+      "سقالة Gerüst",
+      "درابزين Seitenschutz",
+      "لوح قدم Bordbrett",
+      "مرساة Verankerung"
+    ],
+    "terms": [
+      "تصريح Freigabe",
+      "سقالة واجهة Fassadengerüst",
+      "فحص Gerüstprüfung",
+      "خطر سقوط Absturzgefahr"
+    ],
+    "safety": "لا تستخدم سقالة غير مفحوصة أو ناقصة الحماية؛ تركيبها وتعديلها للمتخصصين فقط.",
+    "query": "BG BAU Gerüst sicher benutzen",
+    "source_url": "https://www.bgbau.de/themen/sicherheit-und-gesundheit/absturz/sicher-auf-dem-geruest",
+    "source_label": "BG BAU • السقالات"
+  },
+  {
+    "id": "demolition",
+    "name": "الهدم والتفكيك",
+    "de": "Abbruch / Rückbau",
+    "summary": "إزالة العناصر مع فحص إنشائي ومواد خطرة قبل بدء العمل.",
+    "aliases": "الهدم والتفكيك Abbruch / Rückbau BG BAU Abbruch Rückbau Arbeitsschutz",
+    "steps": [
+      "معاينة المبنى وفصل الخدمات بواسطة المختصين",
+      "تقييم الإنشاء والمواد الخطرة وخطة التخلص",
+      "تأمين المنطقة والحماية من الغبار والسقوط",
+      "التفكيك المنظم حسب خطة الهدم",
+      "فرز النفايات والتسليم بمستندات"
+    ],
+    "tools": [
+      "عدة هدم Abbruchhammer",
+      "حاوية Container",
+      "معدات حماية PSA",
+      "شفط غبار Staubabsaugung"
+    ],
+    "terms": [
+      "تفكيك Rückbau",
+      "نفايات Bauschutt",
+      "قص خرسانة Betonschnitt",
+      "مواد خطرة Schadstoffe"
+    ],
+    "safety": "لا تهدم عنصرًا حاملًا ولا تلمس أسبستوسًا مشتبهًا به دون خبرة وترخيص وخطة.",
+    "query": "BG BAU Abbruch Rückbau Arbeitsschutz",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "windows",
+    "name": "الشبابيك والأبواب",
+    "de": "Fenster- und Türenmontage",
+    "summary": "تركيب إطارات ونوافذ وأبواب مع ضبط التسريب والعزل.",
+    "aliases": "الشبابيك والأبواب Fenster- und Türenmontage Fenster fachgerecht einbauen RAL Montage",
+    "steps": [
+      "قياس الفتحة وتحديد تفاصيل العتبة",
+      "تجهيز وتنظيف الحواف",
+      "تثبيت الإطار وتدعيمه حسب نظام التركيب",
+      "تنفيذ إحكام الداخل والعزل والواجهة الخارجية",
+      "ضبط المفصلات والاختبار والتسليم"
+    ],
+    "tools": [
+      "شباك Fenster",
+      "إطار Rahmen",
+      "شريط إحكام Dichtband",
+      "رغوة PU-Schaum"
+    ],
+    "terms": [
+      "كشف نافذة Laibung",
+      "عتبة Fensterbank",
+      "وصلة Anschlussfuge",
+      "مفصل Scharnier"
+    ],
+    "safety": "تثبيت النوافذ والعتبات حسب الحمل والعزل؛ الرغوة وحدها ليست نظام إحكام كامل.",
+    "query": "Fenster fachgerecht einbauen RAL Montage",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "stairs",
+    "name": "السلالم الخرسانية",
+    "de": "Betontreppe / Treppenbau",
+    "summary": "تنفيذ سلالم يحتاج مخططات خاصة للأبعاد والتدعيم والحديد.",
+    "aliases": "السلالم الخرسانية Betontreppe / Treppenbau Betontreppe einschalen Bewehrung",
+    "steps": [
+      "قراءة مخطط السلم وأبعاد الدرجة المقررة",
+      "تركيب الشدة الحاملة وتدعيمها",
+      "وضع الحديد والفواصل حسب المخططات",
+      "فحص المهندس قبل الصب ثم صب ومعالجة",
+      "فك الشدة بعد الموافقة وفحص الأبعاد"
+    ],
+    "tools": [
+      "شدة سلم Treppenschalung",
+      "درجة Stufe",
+      "بسطة Podest",
+      "حديد Bewehrung"
+    ],
+    "terms": [
+      "ارتفاع نائمة Steigung",
+      "عرض النائمة Auftritt",
+      "درابزين Geländer",
+      "بسطة Podest"
+    ],
+    "safety": "تشكيل الشدة والتسليح جزء إنشائي؛ لا يجوز إعطاء أبعاد قياسية دون معرفة التصميم.",
+    "query": "Betontreppe einschalen Bewehrung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "electrical",
+    "name": "الكهرباء المنزلية",
+    "de": "Elektroinstallation",
+    "summary": "تخطيط شبكات وأسلاك وإنارة ومقابس داخل المباني.",
+    "aliases": "الكهرباء المنزلية Elektroinstallation Elektroinstallation RCD Sicherung Fachbetrieb",
+    "steps": [
+      "تحديد الاحتياج والمخطط بواسطة مختص",
+      "اختيار المواد والدوائر والحمايات حسب النظام",
+      "توزيع المسارات والصناديق وفق المخطط",
+      "التوصيلات والفحص من كهربائي مرخص",
+      "اختبارات الحماية والتوثيق قبل التشغيل"
+    ],
+    "tools": [
+      "قاطع Sicherungsautomat",
+      "قاطع تسرب FI/RCD",
+      "كابل Leitung",
+      "مقبس Steckdose"
+    ],
+    "terms": [
+      "لوحة توزيع Verteiler",
+      "تأريض Erdung",
+      "دائرة Stromkreis",
+      "اختبار Prüfung"
+    ],
+    "safety": "⚠️ العمل على أسلاك الجهد أو اللوحات ليس تعليمًا ذاتيًا؛ فني كهربائي مؤهل فقط.",
+    "query": "Elektroinstallation RCD Sicherung Fachbetrieb",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • قواعد السلامة"
+  },
+  {
+    "id": "plumbing",
+    "name": "السباكة والمياه",
+    "de": "Sanitärinstallation",
+    "summary": "تركيب شبكات المياه والصرف والصحيات.",
+    "aliases": "السباكة والمياه Sanitärinstallation Sanitärinstallation Wasserleitung Montage",
+    "steps": [
+      "قراءة مخطط المياه والصرف",
+      "اختيار الأنابيب والوصلات المعتمدة",
+      "تجهيز نقاط التثبيت والمسارات",
+      "تركيب وفحص الضغط والتسريب بواسطة مختص",
+      "العزل والإغلاق والتجربة النهائية"
+    ],
+    "tools": [
+      "أنبوب Rohr",
+      "وصلة Fitting",
+      "عزل Rohrdämmung",
+      "محبس Absperrventil"
+    ],
+    "terms": [
+      "ضغط Prüfdruck",
+      "صرف Abwasser",
+      "ماء ساخن Warmwasser",
+      "صمام Rückflussverhinderer"
+    ],
+    "safety": "حماية مياه الشرب من التلوث أساسية؛ تمديدات الغاز والمياه تتطلب خبرة وترخيصًا بحسب العمل.",
+    "query": "Sanitärinstallation Wasserleitung Montage",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "hvac",
+    "name": "التدفئة والتكييف",
+    "de": "Heizung / Klima / Lüftung",
+    "summary": "أنظمة تدفئة وتهوية وتكييف المباني.",
+    "aliases": "التدفئة والتكييف Heizung / Klima / Lüftung Heizung Klima Lüftung Montage Fachbetrieb",
+    "steps": [
+      "تحديد الاحتياج الحراري والتهوية وفق تصميم",
+      "اختيار الأجهزة والمخارج والأنابيب",
+      "تركيب ميكانيكي بواسطة مختصين",
+      "اختبارات ضغط وتشغيل وتسليم النظام",
+      "خطة الصيانة والتنظيف الدوري"
+    ],
+    "tools": [
+      "مضخة حرارية Wärmepumpe",
+      "مشع Heizkörper",
+      "مجاري هواء Luftkanal",
+      "منظم Thermostat"
+    ],
+    "terms": [
+      "حمل حراري Heizlast",
+      "توازن هيدروليكي Hydraulischer Abgleich",
+      "تدفق Volumenstrom",
+      "فلاتر Filter"
+    ],
+    "safety": "معدات الغاز ودوائر التبريد والتوصيلات الكهربائية للمختصين الحاصلين على التأهيل اللازم.",
+    "query": "Heizung Klima Lüftung Montage Fachbetrieb",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "carpentry",
+    "name": "النجارة",
+    "de": "Tischler / Schreiner",
+    "summary": "قص وتجميع وتركيب خشب وأبواب وخزائن.",
+    "aliases": "النجارة Tischler / Schreiner Schreinerei Holzverbindungen Anleitung",
+    "steps": [
+      "رسم الأبعاد وقائمة القطع",
+      "اختيار الخشب وأدوات التثبيت",
+      "القص والتشغيل بالمعدات المناسبة",
+      "التجميع واللصق والفحص",
+      "الصنفرة والتشطيب والتركيب"
+    ],
+    "tools": [
+      "خشب Holz",
+      "منشار Kreissäge",
+      "لاصق Holzleim",
+      "برغي Holzschraube"
+    ],
+    "terms": [
+      "تربيط Verbindung",
+      "قشرة Furnier",
+      "لوح Spanplatte",
+      "مفصلة Scharnier"
+    ],
+    "safety": "الحماية من شفرات القطع وغبار الخشب أساسية؛ استخدام المعدات وفق تعليمات المصنع.",
+    "query": "Schreinerei Holzverbindungen Anleitung",
+    "source_url": "https://www.bosch-professional.com/de/de/wissen-innovation/professional-training/",
+    "source_label": "Bosch Professional • التدريب"
+  },
+  {
+    "id": "welding",
+    "name": "اللحام",
+    "de": "Schweißen",
+    "summary": "وصل المعادن بلحام مناسب مع وسائل حماية.",
+    "aliases": "اللحام Schweißen Schweißen MIG MAG WIG Arbeitsschutz",
+    "steps": [
+      "تحديد نوع المعدن والوصل المطلوب",
+      "تجهيز مكان العمل وإزالة المواد القابلة للاشتعال",
+      "اختيار جهاز وحماية حسب العملية بواسطة شخص مؤهل",
+      "تجهيز السطح وتنفيذ اللحام من فني متدرب",
+      "فحص الوصلات وتوثيقها عند الحاجة"
+    ],
+    "tools": [
+      "جهاز لحام Schweißgerät",
+      "خوذة Schweißhelm",
+      "قطب Elektrode",
+      "غاز حماية Schutzgas"
+    ],
+    "terms": [
+      "لحام MIG/MAG",
+      "لحام TIG/WIG",
+      "درز Schweißnaht",
+      "تهوية Absaugung"
+    ],
+    "safety": "مخاطر الحريق والأبخرة والأشعة عالية؛ أعمال الإنشاء الحاملة تتطلب تأهيلًا وفحصًا.",
+    "query": "Schweißen MIG MAG WIG Arbeitsschutz",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "automechanic",
+    "name": "ميكانيك السيارات",
+    "de": "Kfz-Mechatronik",
+    "summary": "صيانة مركبات وتشخيص أعطال بصورة منظمة.",
+    "aliases": "ميكانيك السيارات Kfz-Mechatronik Kfz Wartung Diagnose Anleitung",
+    "steps": [
+      "تسجيل العطل والأعراض وسجل الصيانة",
+      "الفحص البصري وقراءة رموز الأعطال",
+      "التحقق من الأجزاء وفق كتيب الشركة",
+      "الإصلاح أو الاستبدال بواسطة مختص",
+      "اختبار السلامة والتجربة وتوثيق العمل"
+    ],
+    "tools": [
+      "مفتاح عزم Drehmomentschlüssel",
+      "جهاز فحص Diagnosegerät",
+      "رافعة Hebebühne",
+      "فلتر Filter"
+    ],
+    "terms": [
+      "تشخيص Fehlerdiagnose",
+      "فحمات Bremsbeläge",
+      "بطارية Batterie",
+      "زيت محرك Motoröl"
+    ],
+    "safety": "أنظمة الفرامل والوسائد الهوائية والجهد العالي تتطلب مختصًا وإجراءات سلامة محددة.",
+    "query": "Kfz Wartung Diagnose Anleitung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "paving",
+    "name": "الإنترلوك والرصف",
+    "de": "Pflasterarbeiten",
+    "summary": "أرصفة وساحات بحجر رصف فوق قاعدة مهيأة.",
+    "aliases": "الإنترلوك والرصف Pflasterarbeiten Pflastersteine verlegen Unterbau",
+    "steps": [
+      "تخطيط المناسيب والتصريف",
+      "تجهيز التربة وطبقات الأساس والدمك",
+      "تثبيت الحواف والميل",
+      "فرش طبقة التأسيس وتركيب الأحجار",
+      "ملء الفواصل والدمك النهائي وفق النظام"
+    ],
+    "tools": [
+      "حجر رصف Pflasterstein",
+      "سن Schotter",
+      "مدحلة Rüttelplatte",
+      "حافة Randstein"
+    ],
+    "terms": [
+      "ميول Gefälle",
+      "طبقة أساس Tragschicht",
+      "سطح Bettung",
+      "فاصل Fuge"
+    ],
+    "safety": "التصريف والدمك أساس الأداء؛ المشاريع المرورية لها أحمال ومتطلبات خاصة.",
+    "query": "Pflastersteine verlegen Unterbau",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "gardening",
+    "name": "تنسيق الحدائق",
+    "de": "Garten- und Landschaftsbau",
+    "summary": "زراعة وإنشاء حدائق وريّ ومسارات.",
+    "aliases": "تنسيق الحدائق Garten- und Landschaftsbau Gartenbau Rasen Drainage Pflanzung Anleitung",
+    "steps": [
+      "معاينة التربة والضوء وتصريف المياه",
+      "تصميم توزيع المساحات والنباتات",
+      "تحسين التربة وتجهيز الري",
+      "الغرس أو الزراعة في الموسم الملائم",
+      "الري والصيانة والتقليم والمتابعة"
+    ],
+    "tools": [
+      "تربة Mutterboden",
+      "ري Bewässerung",
+      "مجرفة Spaten",
+      "تغطية Mulch"
+    ],
+    "terms": [
+      "تصريف Drainage",
+      "غرس Pflanzung",
+      "تقليم Rückschnitt",
+      "عشب Rasen"
+    ],
+    "safety": "تفقد تمديدات المياه والكهرباء قبل الحفر؛ المعدات الحادة تحتاج احتياطات.",
+    "query": "Gartenbau Rasen Drainage Pflanzung Anleitung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "facade_clean",
+    "name": "تنظيف الواجهات",
+    "de": "Fassadenreinigung",
+    "summary": "تنظيف الحجر والجص والواجهات بمواد مناسبة.",
+    "aliases": "تنظيف الواجهات Fassadenreinigung Fassade reinigen Putz schonend",
+    "steps": [
+      "تحديد نوع السطح والتلوث",
+      "اختبار منطقة مخفية وتقييم ضغط التنظيف",
+      "تأمين الوصول الآمن وحماية النوافذ والنباتات",
+      "تنظيف تدريجي وفق المنتج والنظام",
+      "شطف وفحص وتوثيق النتائج"
+    ],
+    "tools": [
+      "ماكينة ضغط Hochdruckreiniger",
+      "فرشاة Bürste",
+      "منظف Reiniger",
+      "سقالة Gerüst"
+    ],
+    "terms": [
+      "حجر طبيعي Naturstein",
+      "واجهات Putzfassade",
+      "ترسب Ablagerung",
+      "اختبار Probe"
+    ],
+    "safety": "ضغط أو كيميائيات غير مناسبة قد تتلف الطينة والواجهات والعزل؛ ابدأ باختبار صغير.",
+    "query": "Fassade reinigen Putz schonend",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة البناء"
+  },
+  {
+    "id": "metalwork",
+    "name": "الحدادة وصناعة المعادن",
+    "de": "Metallbau",
+    "summary": "قص وتصنيع وتركيب قطع ومنشآت معدنية.",
+    "aliases": "الحدادة وصناعة المعادن Metallbau Metallbau Werkstatt Konstruktion Montage",
+    "steps": [
+      "قراءة الرسم والأبعاد والتفاوتات",
+      "اختيار مقطع المعدن والإجراء",
+      "قص وحفر وتشكيل بواسطة معدات مناسبة",
+      "تجميع وتشطيب السطح والحماية",
+      "تركيب وفحص الثبات والسلامة"
+    ],
+    "tools": [
+      "زاوية Winkelprofil",
+      "مقطع Stahlprofil",
+      "مثقاب Bohrmaschine",
+      "دهان حماية Korrosionsschutz"
+    ],
+    "terms": [
+      "تجميع Montage",
+      "درفلة Biegen",
+      "تسامح Maßtoleranz",
+      "صدأ Korrosion"
+    ],
+    "safety": "العناصر الحاملة والدرابزينات تتطلب تصميمًا ومطابقة وفحصًا هندسيًا.",
+    "query": "Metallbau Werkstatt Konstruktion Montage",
+    "source_url": "https://www.bosch-professional.com/de/de/wissen-innovation/professional-training/",
+    "source_label": "Bosch Professional • التدريب"
+  },
+  {
+    "id": "roofing",
+    "name": "الأسقف المائلة",
+    "de": "Dachdeckerarbeiten",
+    "summary": "تغطية الأسقف المائلة مع تفاصيل التهوية والربط.",
+    "aliases": "الأسقف المائلة Dachdeckerarbeiten Dachziegel verlegen Dachdecker Anleitung",
+    "steps": [
+      "فحص المخطط والهيكل والميول",
+      "تأمين السقالة وحماية السقوط",
+      "تركيب الطبقات والأغشية حسب النظام",
+      "تركيب القرميد والحواف والمزاريب",
+      "فحص تسرب المطر والتفاصيل النهائية"
+    ],
+    "tools": [
+      "قرميد Dachziegel",
+      "عوارض Dachlatten",
+      "غشاء Unterspannbahn",
+      "مزراب Dachrinne"
+    ],
+    "terms": [
+      "تغطية Eindeckung",
+      "حافة Traufe",
+      "قمة First",
+      "ميول Dachneigung"
+    ],
+    "safety": "مخاطر السقوط والطقس عالية؛ التركيب والتعديل الهيكلي للمتخصصين.",
+    "query": "Dachziegel verlegen Dachdecker Anleitung",
+    "source_url": "https://www.bgbau.de/service/angebote/medien-center-suche/medium/erklaerfilm-9-lebenswichtige-regeln-im-hochbau",
+    "source_label": "BG BAU • سلامة أعمال الارتفاعات"
+  }
+]
