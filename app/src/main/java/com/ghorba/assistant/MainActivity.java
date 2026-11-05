@@ -240,7 +240,6 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
                 +(v.isNetworkConnectionRequired()?" • يحتاج شبكة":" • يمكن تشغيله محليًا");
         }
         new AlertDialog.Builder(this).setTitle("اختاري صوت غربة")
-          .setMessage("الأسماء لا تضمن جنس الصوت أو لهجة سورية. اضغط على كل صوت لتجربته، ويمكن تغييره لاحقًا.")
           .setItems(names,(d,which)->{
               android.speech.tts.Voice v=arabic.get(which);
               try {
